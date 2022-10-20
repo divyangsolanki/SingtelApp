@@ -1,0 +1,729 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Main Component Main handleClick [Matched card] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Flip Card
+  </Text>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.85,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "margin": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 0.15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "margin": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Moves: 
+      1
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#003566",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "width": 260,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#ffffff",
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "letterSpacing": 0,
+                "textAlign": "center",
+              },
+              undefined,
+              Object {
+                "position": "absolute",
+                "width": 260,
+              },
+            ]
+          }
+        >
+          Restart
+        </Text>
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="restart"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+                                              
+                                
+                                
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Test Main Component Main handleClick [Unmatched card] 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Flip Card
+  </Text>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.85,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "margin": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 0.15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "margin": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Moves: 
+      1
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#003566",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "width": 260,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#ffffff",
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "letterSpacing": 0,
+                "textAlign": "center",
+              },
+              undefined,
+              Object {
+                "position": "absolute",
+                "width": 260,
+              },
+            ]
+          }
+        >
+          Restart
+        </Text>
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="restart"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+                                              
+                                
+                                
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Test Main Component Main restart 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Flip Card
+  </Text>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.85,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "margin": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 0.15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "margin": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Moves: 
+      0
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#003566",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "width": 260,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#ffffff",
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "letterSpacing": 0,
+                "textAlign": "center",
+              },
+              undefined,
+              Object {
+                "position": "absolute",
+                "width": 260,
+              },
+            ]
+          }
+        >
+          Restart
+        </Text>
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="restart"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+                                              
+                                
+                                
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Test Main Component Main snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Flip Card
+  </Text>
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 0.85,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "margin": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderWidth": 2,
+              "flexWrap": "wrap",
+              "margin": 10,
+            }
+          }
+          testID="card"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flex": 0.15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "margin": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Moves: 
+      0
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#003566",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "width": 260,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#ffffff",
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "letterSpacing": 0,
+                "textAlign": "center",
+              },
+              undefined,
+              Object {
+                "position": "absolute",
+                "width": 260,
+              },
+            ]
+          }
+        >
+          Restart
+        </Text>
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="restart"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+                                              
+                                
+                                
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Card Card 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "blue",
+      "borderWidth": 2,
+      "flexWrap": "wrap",
+      "margin": 10,
+    }
+  }
+/>
+`;

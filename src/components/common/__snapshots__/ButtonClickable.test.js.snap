@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ButtonClickable Button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#003566",
+        "borderRadius": 32,
+        "height": 64,
+        "justifyContent": "center",
+        "width": 260,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": 0,
+            "textAlign": "center",
+          },
+          undefined,
+          Object {
+            "position": "absolute",
+            "width": 260,
+          },
+        ]
+      }
+    >
+      Restart
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Test ButtonClickable Button with disabled state (isAndroid = false) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#003566",
+      "borderRadius": 32,
+      "height": 64,
+      "justifyContent": "center",
+      "width": 260,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "color": "#ffffff",
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "letterSpacing": 0,
+          "textAlign": "center",
+        },
+        undefined,
+        Object {
+          "position": "absolute",
+          "width": 260,
+        },
+      ]
+    }
+  >
+    SIGN IN
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+                                        
+                                
+                                
+      </Text>
+    </View>
+  </View>
+</View>
+`;
